@@ -1,0 +1,47 @@
+@import url(main.css);
+
+main {
+	display: flex;
+}
+#conteudo-principal {
+	width: 75%;
+	padding: 2em;
+}
+
+aside {
+	width: 25%;
+	background-color: #ffa500;
+}
+
+aside > div {
+}
+
+h2 {
+	color: #ffa500;
+}
+
+#container-milho {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+}
+
+#container-milho > .produto {
+	background-color: white;
+	border-radius: 1em;
+	width: 260px;
+	border: 1px lightgray solid;
+	overflow: hidden;
+}
+
+.produto > img {
+	object-fit: cover;
+	width: 100%;
+	aspect-ratio: 1/1;
+}
+
+.produto:hover {
+	transition: 200ms;
+	box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+	transform: scale(102%);
+}
