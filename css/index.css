@@ -13,7 +13,8 @@ aside {
 	background-color: #ffa500;
 }
 
-aside > div {
+aside > div > a > p {
+	color: black;
 }
 
 h2 {
